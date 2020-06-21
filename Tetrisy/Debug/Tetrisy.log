@@ -1,3 +1,3 @@
 ﻿  program.cpp
-D:\Tetrisy\Tetrisy\program.cpp(302,1): warning C4326: 'main' の戻り値の型には、'int' を使用してください。'void' は使用できません
+D:\Tetrisy\Tetrisy\program.cpp(334,1): warning C4326: 'main' の戻り値の型には、'int' を使用してください。'void' は使用できません
   Tetrisy.vcxproj -> D:\Tetrisy\Debug\Tetrisy.exe

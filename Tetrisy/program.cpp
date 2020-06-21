@@ -21,6 +21,7 @@ enum {
 	MINO_TYPE_J,
 	MINO_TYPE_L,
 	MINO_TYPE_T,
+	MINO_TYPE_Y,
 	MINO_TYPE_MAX
 };
 
@@ -248,6 +249,37 @@ char minoShapes[MINO_TYPE_MAX][MINO_ANGLE_MAX][MINO_HEIGHT][MINO_WIDTH] = {
 			0, 0, 1, 0,
 			0, 1, 1, 0,
 			0, 0, 1, 0,
+			0, 0, 0, 0
+		}
+	},
+		//MINO_TYPE_Y
+	{
+		//MINO_ANGLE_0,
+		{
+			1, 0, 1, 0,
+			1, 1, 1, 0,
+			0, 1, 0, 0,
+			0, 0, 0, 0
+		},
+		//MINO_ANGLE_90,
+		{
+			0, 0, 0, 0,
+			1, 1, 0, 0,
+			0, 1, 1, 0,
+			1, 1, 0, 0
+		},
+		//MINO_ANGLE_180,
+		{
+			0, 0, 0, 0,
+			0, 0, 1, 0,
+			0, 1, 1, 1,
+			0, 1, 0, 1
+		},
+		//MINO_ANGLE_270
+		{
+			0, 0, 1, 1,
+			0, 1, 1, 0,
+			0, 0, 1, 1,
 			0, 0, 0, 0
 		}
 	}
